@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://flevix.com/wp-content/uploads/2020/01/Black-Animation-Background.svg");
+    /*background-color: rgba(0, 0, 0, 0.872);*/
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.square {
+    width: 30%;
+    background: rgb(80, 27, 237);
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 14px;
+    transition: background 0.55s;
+    -webkit-transition: background 0.55s;
+}
+:hover.square {
+    cursor: grab;
+}
+#container {
+    max-width: 500px;
+    margin: 20px auto;
+}
+h1 {
+    color: rgb(250, 247, 243);
+    text-align: center;
+    line-height: 1.21;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 4%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    /*margin: 0;*/
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgba(37, 37, 37, 0.009);
+    padding-top: 12px;
+    font-weight: lighter;
+    padding: 18px 0;
+}
+#colorDisplay {
+    font-size: 200%;
+    text-transform:uppercase;
+}
+#message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 53, 70);
+    width: 20%;
+    display: inline-block;
+}
+#stripe {
+    background: rgb(183, 230, 244);
+    height: 30px;
+    text-align: center;
+    color:black;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.selected {
+    background: rgb(88, 68, 219);
+    color: aliceblue;
+}
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(88, 68, 219);
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 350.0ms;
+    -webkit-transition: all 350.0ms;
+    -moz-transition: all 350.0ms;
+}
+button:hover {
+    color:aliceblue;
+    background: rgb(88, 68, 219);
+}
