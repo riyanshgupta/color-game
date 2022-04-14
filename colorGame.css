@@ -44,8 +44,10 @@ h1 {
     text-transform:uppercase;
 }
 #message{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arial';
     font-size: large;
+    font-variant: small-caps;
+    font-weight: 600;
     color: rgb(35, 53, 70);
     width: 20%;
     display: inline-block;
