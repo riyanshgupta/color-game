@@ -65,7 +65,7 @@ for (var i = 0; i < squares.length; i++)
     squares[i].addEventListener("click", function(){
         var clickedColor = this.style.backgroundColor;
         if (clickedColor == pickedColor){
-            messageDisplay.textContent="Correct!";
+            messageDisplay.textContent="Correct";
             messageDisplay.style.color="#16b821";
             resetButton.textContent="Play Again";
             changeColors(clickedColor);
@@ -75,7 +75,7 @@ for (var i = 0; i < squares.length; i++)
         else {
             this.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_DfuFpFFMmKuEGC9CuTBYrMn_0XN6QjGsijo9Aj9JozJvwdrCq6Kxrgb81Zvaz4_CY8U&usqp=CAU')";
             this.style.backgroundSize= "cover"; //own
-            messageDisplay.textContent = "Try Again";
+            messageDisplay.textContent = "Retry";
             messageDisplay.style.color="rgb(255, 10,60)";
         }
     });

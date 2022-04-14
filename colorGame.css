@@ -45,7 +45,7 @@ h1 {
 }
 #message{
     font-family: 'Arial';
-    font-size: large;
+    font-size: 107%;
     font-variant: small-caps;
     font-weight: 600;
     color: rgb(35, 53, 70);
@@ -55,6 +55,7 @@ h1 {
 #stripe {
     background: rgb(229, 240, 243);
     height: 30px;
+
     text-align: center;
     color:rgb(16, 15, 15);
     border-bottom-right-radius: 7px;
