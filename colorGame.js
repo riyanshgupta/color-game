@@ -66,6 +66,7 @@ for (var i = 0; i < squares.length; i++)
         var clickedColor = this.style.backgroundColor;
         if (clickedColor == pickedColor){
             messageDisplay.textContent="Correct!";
+            messageDisplay.style.color="rgb(0, 255, 0)";
             resetButton.textContent="Play Again";
             changeColors(clickedColor);
             h1.style.background = clickedColor;
@@ -75,6 +76,7 @@ for (var i = 0; i < squares.length; i++)
             this.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_DfuFpFFMmKuEGC9CuTBYrMn_0XN6QjGsijo9Aj9JozJvwdrCq6Kxrgb81Zvaz4_CY8U&usqp=CAU')";
             this.style.backgroundSize= "cover"; //own
             messageDisplay.textContent = "Try Again";
+            messageDisplay.style.color="rgb(255, 0, 0)";
         }
     });
 }

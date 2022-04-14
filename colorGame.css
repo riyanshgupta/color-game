@@ -32,11 +32,12 @@ h1 {
     border-top-left-radius: 7px;
     /*margin: 0;*/
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 0.5%;
     background-color: rgba(37, 37, 37, 0.009);
     padding-top: 12px;
     font-weight: lighter;
     padding: 18px 0;
+    
 }
 #colorDisplay {
     font-size: 200%;
@@ -44,15 +45,17 @@ h1 {
 }
 #message{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight:bold;
     color: rgb(35, 53, 70);
     width: 20%;
     display: inline-block;
 }
 #stripe {
-    background: rgb(183, 230, 244);
+    background: rgb(229, 240, 243);
     height: 30px;
     text-align: center;
-    color:black;
+    color:rgb(16, 15, 15);
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
 }
