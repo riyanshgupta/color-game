@@ -1,6 +1,6 @@
 body{ 
-    background-image: url("https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg");
-    /*background-color: rgba(0, 0, 0, 0.872);*/
+/*     background-image: url("https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg"); */
+    background-color: rgba(0, 0, 0, 0.872);
     background-size: cover;
     margin-top: 0%;
 }
